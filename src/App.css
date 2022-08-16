@@ -1,0 +1,35 @@
+.app {
+  padding: 4rem;
+
+  display: flex;
+  
+  align-items: center;
+  flex-direction: column;
+  background-color: #576f72;
+  height: 100vh;
+  overflow: auto;
+  
+}
+.finalbox{
+  width: 80%;
+  background-color: #7d9d9c;  
+  border-radius: 4%;
+  margin-top: 3%;
+
+}
+.custominput{
+  color: white;
+  width: 20%;
+  background-color: #576f72;
+  border: none;
+  border-bottom: 1px solid #2c3233;
+}
+.custominput[type=text]:focus{
+  border-bottom: 1px solid #2c3233;
+  
+  
+  outline: none;
+}
+.custominput::placeholder{
+  color:white;
+}

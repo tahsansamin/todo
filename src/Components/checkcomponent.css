@@ -1,0 +1,62 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #E4DCCF;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: auto;
+    overflow: auto;
+    border-radius: 4rem;
+}
+.box1{
+    flex-basis: 80%;
+    align-self: center;
+    
+}
+.box2{
+    flex-basis: 10%;
+    margin-right: 4%;
+    align-self: center;
+    
+    
+}
+.box3{
+    flex-basis: 10%;
+    
+    margin-right: 4%;
+    align-self: center;
+    
+}
+.personbutton{
+    border-radius: 20px;
+    border:none;
+    box-shadow: 2px 3px 3px;
+    background-color: #F0EBE3;
+    height: 80px;
+    width: 80px;
+
+}
+.personbutton:hover{
+    background-color: #7d9d9c;
+}
+@media ( max-width: 500px ){
+    .container{
+        
+        flex-direction: column;
+    }
+    .box1{
+        text-align: center;
+        
+    }
+    .box2{
+        text-align: center;
+        
+        
+    }
+    .box3{
+        text-align: center;}
+}
